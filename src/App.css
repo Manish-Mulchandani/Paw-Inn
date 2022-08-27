@@ -97,6 +97,10 @@ h6 {
   background: var(--offWhite);
   z-index: 1;
 }
+.imgnav-header{
+  height: 40px;
+  width: 120px;
+}
 .nav-header {
   display: flex;
   justify-content: space-between;

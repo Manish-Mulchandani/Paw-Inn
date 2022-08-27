@@ -1,7 +1,7 @@
 import React, {
     Component
 } from 'react'
-import logo from "../images/logo.svg";
+import logo from "../images/logo.png";
 import {
     FaAlignRight
 } from "react-icons/fa";
@@ -26,7 +26,7 @@ export default class Navbar extends Component {
                 <div className = "nav-center" > 
                     <div className="nav-header">
                         <Link to="/">
-                            <img src={logo} alt="Beach Resort" />
+                            <img className="imgnav-header" src={logo} alt="Paw-Inn" />
                         </Link>
                         <button type="button" className="nav-btn" onClick={this.handleToggle}>
                             <FaAlignRight className="nav-icon" />
